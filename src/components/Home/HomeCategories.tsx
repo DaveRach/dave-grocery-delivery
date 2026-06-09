@@ -18,6 +18,7 @@ const HomeCategories = () => {
                          ring-orange-300/75 transition-all">
                             <img src={cat.image} alt={cat.name} className="w-full h-full object-contain rounded-full transition-all" />
                         </div>
+                        <span className="text-xs font-medium text-zinc-600 text-center leading-tight">{cat.name}</span>
                     </Link>
                 ))}
             </div>
